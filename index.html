@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cyrian Crusson &copy;</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="print">
+    <link rel="icon" href="./img/logo2.svg">
+    <style>       
+        #intro {
+            border-radius: 8px;
+            display: block;
+            margin: auto;
+            margin-bottom: 10rem;
+            margin-top: 10rem;
+            border: 2px solid black;
+            width: 60%;
+            height: 30%;
+        }
+
+        iframe{
+            display: block;
+            margin: auto;
+        }
+
+        pre{
+            display: inline-block;
+            transition: color 1s ease-in-out;
+            font-size: 1rem;
+        }
+
+        .preblock{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #pre1:hover{
+            color : blue;
+        }
+
+        #pre2:hover{
+            color : white;
+        }
+
+        #pre3:hover{
+            color : red;
+        }
+
+        form, p, details{
+            background-color: lightgrey;
+        }
+
+        fieldset > legend{
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        details{
+            margin: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="./bio.html">Bio</a>
+        <a href="./education.html">Education</a>
+        <a href="./experiences.html">Experiences</a>
+        <a href="#top">Back to the <b>top</b></a>
+    </nav>
+            <!--Using .svg because no color, simple logo-->
+            <!--<img id="logo" src="./img/logo2.svg" alt="logo">-->
+
+    </header>
+
+    <main>
+    <h1>Bienvenue !</h1>
+    <!--Png to Webp reduced the sized a lot-->
+    <picture>
+        <source media="(max-width: 700px)" srcset="./img/portfolio2.webp" width="300" height="200">
+        <img id="intro" src="./img/portfolio.webp" alt="portfolio image">
+    </picture>
+<br>
+<br>
+<hr />
+
+    <details>
+        <summary>La France ? Oui oui</summary>   
+    <div class="preblock">
+    <pre id="pre1">                
+               |
+               |
+               A
+             _/X\_
+             \/X\/
+              |V|
+              |A|
+              |V|
+             /XXX\
+             |\/\|
+             |/\/|
+             |\/\|
+             |/\/|
+             |\/\|
+             |/\/|
+            IIIIIII
+            |\/_\/|
+           /\// \\/\
+           |/|   |\|
+          /\X/___\X/\
+         IIIIIIIIIIIII
+        /`-\/XXXXX\/-`\
+      /`.-'/\|/I\|/\'-.`\
+     /`\-/_.-"` `"-._ \-/\
+    /.-'.'           '.'-.\
+   /`\-/               \-/`\
+ _/`-'/`_             _`\'-`\_
+`"""""""`               `""""""`</pre>
+    <pre id="pre2">                
+               |
+               |
+               A
+             _/X\_
+             \/X\/
+              |V|
+              |A|
+              |V|
+             /XXX\
+             |\/\|
+             |/\/|
+             |\/\|
+             |/\/|
+             |\/\|
+             |/\/|
+            IIIIIII
+            |\/_\/|
+           /\// \\/\
+           |/|   |\|
+          /\X/___\X/\
+         IIIIIIIIIIIII
+        /`-\/XXXXX\/-`\
+      /`.-'/\|/I\|/\'-.`\
+     /`\-/_.-"` `"-._ \-/\
+    /.-'.'           '.'-.\
+   /`\-/               \-/`\
+ _/`-'/`_             _`\'-`\_
+`"""""""`               `""""""`</pre>
+
+    <pre id="pre3">                
+               |
+               |
+               A
+             _/X\_
+             \/X\/
+              |V|
+              |A|
+              |V|
+             /XXX\
+             |\/\|
+             |/\/|
+             |\/\|
+             |/\/|
+             |\/\|
+             |/\/|
+            IIIIIII
+            |\/_\/|
+           /\// \\/\
+           |/|   |\|
+          /\X/___\X/\
+         IIIIIIIIIIIII
+        /`-\/XXXXX\/-`\
+      /`.-'/\|/I\|/\'-.`\
+     /`\-/_.-"` `"-._ \-/\
+    /.-'.'           '.'-.\
+   /`\-/               \-/`\
+ _/`-'/`_             _`\'-`\_
+`"""""""`               `""""""`</pre>
+<!--Art by Joan G. Stark-->
+</div>
+<br>
+<p id="blinke">Hover them !</p>
+<br>
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5664790.450026941!2d2.59110285!3d46.11068855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sFrance!5e0!3m2!1sfr!2sus!4v1698179415395!5m2!1sfr!2sus" 
+    width="600" 
+    height="450"
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
+</details>
+
+<hr />
+<details>
+    <summary>Contact me ?</summary>
+<form>
+<fieldset>
+    <legend>Contact me</legend>
+    <div class="sex_selection">
+      <input type="radio" id="male" name="sex" value="male">
+      <label for="male">Male</label>
+  
+      <input type="radio" id="female" name="sex" value="female">
+      <label for="female">Female</label>
+  
+      <input type="radio" id="None" name="sex" value="None" checked>
+      <label for="None">Prefer not to say</label>
+    </div>
+<br>
+    <div class="UID">
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id">
+    </div>
+    <br>
+
+    <div class="story">
+        <textarea name="write" id="write" cols="30" rows="10">Write me a message !</textarea>
+    </div>
+
+    <br>
+
+    <div class="city">
+        <label for="city">Choose a a city in France where we can meet:</label>
+            <select id="city">
+            <optgroup label="South of France">
+                <option>Bordeaux</option>
+                <option>Marseille</option>
+                <option>Nice</option>
+            </optgroup>
+            <optgroup label="North of France">
+                <option>Paris</option>
+                <option>Lille</option>
+                <option>Nantes</option>
+            </optgroup>
+            </select>
+    </div>
+
+    <br>
+
+    <div class="worldchoice">
+        <label for="worldchoice">Who will win the next soccer World Cup ?</label>
+        <input list="worldchamp" id="worldchoice" name="worldchoice"/>
+
+            <datalist id="worldchamp">
+            <option value="France"></option>
+            <option value="France"></option>
+            <option value="France"></option>
+            <option value="France"></option>
+            <option value="France"></option>
+            </datalist>
+    </div>
+<br>
+
+    <input type="reset" value="Reset">
+    <button type="submit">Send</button>
+</fieldset>
+</form>
+</details>
+<nav>
+<a href="./bio.html">Bio</a>
+<a href="./education.html">Education</a>
+<a href="./experiences.html">Experiences</a>
+<a href="#top">Back to the <b>top</b></a>
+</nav>
+</main>
+
+<footer>
+    <p>This website has been made by <span id="smooth">Cyrian Crusson</span><br><br>
+    Contact me : <a href="mailto:cyrian.crusson@esme.fr">cyrian.crusson@esme.fr</a></p>
+</footer>
+</body>
+<!--TODO for HW4 : add static bg and change colors-->
+</html>
